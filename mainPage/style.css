@@ -12,8 +12,8 @@
 
 .main {
     background-color: whitesmoke;
-    width: 360px;
-    height: 950px;
+    width: 375px;
+    height: 812px;
     margin: auto;
 }
 
@@ -35,14 +35,31 @@
 }
 
 .custom {
-    margin: 10px;
+    margin: 20px;
     text-align: center;
 }
 
 .custom i {
     background-color: #fff;
     width: 95px;
-    height: 20px;
-    line-height: 20px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.custom i:hover {
+    box-shadow: 0 3px 5px lightgray;
+}
+
+
+.between {
+    margin-left: 27px;
+}
+
+.busstop {
+    background-color: #fff;
+    width: 300px;
+    height: 120px;
+    margin: 20px 10px;
     text-align: center;
 }
