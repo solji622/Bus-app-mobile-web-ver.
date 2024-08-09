@@ -11,7 +11,7 @@
 }
 
 .main {
-    background-color: whitesmoke;
+    box-shadow: 0 5px 30px whitesmoke;
     width: 375px;
     height: 812px;
     margin: auto;
@@ -28,20 +28,20 @@
 }
 
 .distance {
-    background-color: #fff;
+    border: 3px solid whitesmoke;
     width: 300px;
     height: 100px;
     margin: auto;
 }
 
 .custom {
-    margin: 20px;
+    margin: 10px;
     text-align: center;
 }
 
 .custom i {
-    background-color: #fff;
-    width: 95px;
+    border: 2px solid whitesmoke;
+    width: 93px;
     height: 30px;
     line-height: 30px;
     text-align: center;
@@ -57,9 +57,17 @@
 }
 
 .busstop {
-    background-color: #fff;
+    border: 3px solid whitesmoke;
     width: 300px;
     height: 120px;
     margin: 20px 10px;
     text-align: center;
+}
+
+.distance i {
+    margin: 10px;
+}
+
+.distance i:hover {
+    color: lightgray;
 }
