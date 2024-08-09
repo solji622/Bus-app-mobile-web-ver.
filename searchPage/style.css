@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    box-shadow: 0 5px 30px whitesmoke;
+    width: 375px;
+    height: 812px;
+    margin: auto;
+}
+
+.return {
+    padding: 20px;
+    font-size: 15pt;
+}
+
+.return i:hover {
+    color: lightgray;
+}
