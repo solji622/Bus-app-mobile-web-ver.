@@ -10,11 +10,12 @@
     padding: 0;
 }
 
+
 .main {
     box-shadow: 0 5px 30px whitesmoke;
     width: 375px;
     height: 812px;
-    margin: auto;
+    margin: 50px auto 0 auto;
 }
 
 .logo {
